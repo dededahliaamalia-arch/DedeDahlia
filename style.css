@@ -54,3 +54,27 @@ footer {
     background-color: #333;
     color: #fff;
 }
+
+/*---Styling CTA Button---*/
+.cta-button {
+    /* Gaya Visual */
+    background-color: #e74c3c: /* Warna Merah Kontras */
+    color: white;
+    fent-weight: bold;
+
+    /* Ukuran dan Bentuk */
+    padding: 8px 15px; /* Jarak di dalam tombol */
+    border-radius: 5px; /* Sudut membulat */
+
+    /* Efek Hover */
+    transition: background-color 0.3x ease;
+}
+
+.cta-button:hover {
+    background-color: #c0392b; /* Warna sedikit lebih gelap saat di-hover */
+}
+
+/*---Memastikan tomboltidak memiliki style link bawah */
+.nav-cta a {
+    text-decoration: none;
+}
