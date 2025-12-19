@@ -78,3 +78,8 @@ footer {
 .nav-cta a {
     text-decoration: none;
 }
+
+.menu-tugas {
+    display: flex;
+    gap: 20px;
+}
