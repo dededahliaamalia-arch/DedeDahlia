@@ -1,0 +1,72 @@
+/* Reset dasar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Body */
+body {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #f2f4ff, #e6ebff);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Judul utama */
+h1 {
+    font-size: 32px;
+    color: #2c2c54;
+    margin-bottom: 25px;
+}
+
+/* Card document */
+.document {
+    background-color: #ffffff;
+    width: 340px;
+    padding: 30px;
+    border-radius: 14px;
+    text-align: center;
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.12);
+    transition: transform 0.3s ease;
+}
+
+/* Hover card */
+.document:hover {
+    transform: translateY(-6px);
+}
+
+/* Subjudul */
+.document h3 {
+    font-size: 20px;
+    color: #4b4b7a;
+    margin-bottom: 20px;
+}
+
+/* Tombol */
+.btn {
+    display: inline-block;
+    padding: 12px 22px;
+    background-color: #5f27cd;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 15px;
+    transition: all 0.3s ease;
+}
+
+/* Hover tombol */
+.btn:hover {
+    background-color: #341f97;
+    box-shadow: 0 8px 16px rgba(95, 39, 205, 0.4);
+    transform: scale(1.05);
+}
+
+/* Klik */
+.btn:active {
+    transform: scale(0.95);
+}
